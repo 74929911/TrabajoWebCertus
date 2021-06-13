@@ -39,4 +39,129 @@ body{
 margin-top:40px;
 overflow-x:hidden;
 }
-    
+
+
+/* POPULAR 1 */
+
+.Popular1{
+display:flex;
+width:100%;
+}
+
+.Popular_texto{
+width:40%;
+margin-left:30px;
+}
+
+.Popular1 img{
+width:30%
+}
+
+
+/* POPULAR 2 */
+
+.Popular2{
+display:flex;
+width:100%;
+flex-direction: row-reverse;
+margin-top:20px
+}
+
+
+.Popular2_txt{
+width:40%;
+margin-right:30px}
+
+
+.Popular2 img{
+width:30%
+}
+
+/* POPULAR 3 */
+
+.popular3{
+display:flex;
+width:100%;
+margin-top:20px;
+}
+
+.Popular3_txt{
+width:30%;
+margin-left:30px
+}
+
+.popular3 img{
+width:30%
+}
+
+/* POPULAR 4 */
+
+.popular4{
+display:flex;
+flex-direction: row-reverse;
+width:100%;
+}
+
+.popular4_txt{
+width:30%;
+margin-right:30px
+}
+
+.popular4 img{
+width:25%;
+height:280px
+}
+
+
+/* POPULAR 5 */
+
+.popular5{
+display:flex;
+width:100%
+}
+
+.popular5_txt{
+width:40%;
+margin-left:30px
+}
+
+.popular5 img{
+width:30%
+}
+
+
+
+/* POPULAR 6 */
+
+.popular6{
+display:flex;
+flex-direction:row-reverse;
+width:100%
+}
+
+.popular6_txt{
+width:40%;
+margin-right:30px
+}
+
+.popular6 img{
+width:30%
+}
+
+/* POPULAR 7 */
+.popular7{
+display:flex;
+width:100%
+}
+
+.popular7_txt{
+width:40%;
+margin-left:30px
+}
+
+.popular7 img{
+width:30%
+}
+
+
+
