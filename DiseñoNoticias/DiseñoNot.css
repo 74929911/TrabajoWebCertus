@@ -45,6 +45,7 @@ overflow-x:hidden;
     display: flex;
     width: 100%;
     margin-bottom: 30px;
+    padding: 30px;
 }
 .noticias1 img{
     width: 30%;

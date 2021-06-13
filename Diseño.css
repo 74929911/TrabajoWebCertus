@@ -130,3 +130,58 @@ body{
 margin-top:40px;
 overflow-x:hidden;
 }
+/*estilos juegos populares*/
+
+.juegospopulares1 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.juegospopulares1 img{
+    width: 20%; 
+}
+
+.juegospopulares_div1 {
+    font-size: 16px;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 40%;
+}
+.juegospopulares_div1 h2{
+    text-align: center;
+    color: red;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.juegos_populares_div1 p{
+    margin-top: 2%;
+}
+
+.juegospopulares2{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    
+}
+
+.juegospopulares2 img{
+    width: 20%;
+}
+
+.juegospopulares_div2 {
+    font-size: 17px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:1%;
+    width: 40%;
+}
+
+.juegospopulares_div2 p{
+    margin-top: 2%;  
+}
+.juegospopulares_div2 h2{
+    text-align: center;
+    color:rgb(0, 174, 255);
+}
