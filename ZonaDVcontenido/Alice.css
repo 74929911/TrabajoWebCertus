@@ -39,3 +39,20 @@ body{
 margin-top:40px;
 overflow-x:hidden;
 }
+.imagenes_alice{
+display:flex;
+width:100%;
+justify-content: space-evenly;
+
+
+}
+.imagenes_alice img{
+    width: 30%;
+    margin-top: 40px;
+}
+.madness{
+    width: 100%;
+}
+.ALICE{
+    width: 50%;
+}
