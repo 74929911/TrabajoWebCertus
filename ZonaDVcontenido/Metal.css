@@ -39,4 +39,31 @@ body{
 margin-top:40px;
 overflow-x:hidden;
 }
-            
+
+.populares1 {
+    width: 50%;
+    margin-left: 2%;
+
+}
+.populares1 h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.populares1 p{
+    margin-top: 20px;
+}
+.populares1 iframe{
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+.popularesimg{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.popularesimg img{
+    width: 27%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
