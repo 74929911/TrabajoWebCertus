@@ -1,9 +1,5 @@
 
 /*Estilos Noticias*/
-*{
-    margin: 0%;
-    
-}
 .noticia1 {
     display: flex;
     background-color: lawngreen;
