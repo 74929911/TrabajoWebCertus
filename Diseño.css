@@ -1,22 +1,20 @@
 
 /*Estilos Noticias*/
-*{
-    margin: 0%;
-    
-}
 .noticia1 {
     display: flex;
-    background-color: lawngreen;
     width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 .noticia1 img{
-    width: 30%; 
+    width: 20%; 
 }
 
 .noticia1_div {
-    font-size: 150%;
+    font-size: 16px;
     margin-left: 2%;
     margin-right: 2%;
+    width: 40%;
 }
 .noticia1_div h2{
     text-align: center;
@@ -33,18 +31,19 @@
     display: flex;
     width: 100%;
     flex-direction: row-reverse;
-    background-color: royalblue;
+    
 }
 
 .noticia2 img{
-    width: 30%;
+    width: 20%;
 }
 
 .noticia2_div {
-    font-size: 150%;
+    font-size: 17px;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top:4%;
+    margin-top:1%;
+    width: 40%;
 }
 
 .noticia2_div p{
