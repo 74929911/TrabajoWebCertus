@@ -1,0 +1,59 @@
+/*Estilos Noticias*/
+*{
+    margin: 0%;
+    
+}
+.noticia1 {
+    display: flex;
+    background-color: lawngreen;
+    width: 100%;
+}
+.noticia1 img{
+    width: 30%; 
+}
+
+.noticia1_div {
+    font-size: 150%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.noticia1_div h2{
+    text-align: center;
+    color: royalblue;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.noticia1_div p{
+    margin-top: 2%;
+}
+
+.noticia2{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    background-color: royalblue;
+}
+
+.noticia2 img{
+    width: 30%;
+}
+
+.noticia2_div {
+    font-size: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:4%;
+}
+
+.noticia2_div p{
+    margin-top: 2%;  
+}
+.noticia2_div h2{
+    text-align: center;
+    color: brown;
+}
+
+
+
+
