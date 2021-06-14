@@ -7,9 +7,6 @@ margin-top:-47px;
 z-index:451;
 }
             
-.espacio__logo{
-margin-left:80px
-}
             
 ul li{
 display:inline-block;
@@ -39,7 +36,9 @@ padding:0;
                 
 body{
 margin-top:40px;
+background-image:url(../imagenes/FondoUno.png);
 }
+
 
 .zona_todo{
 width:100%;
@@ -52,10 +51,6 @@ align-items: center;
 .zona_todo a img{
 height:300px;
 }
-
-
-
-
 
 
 
