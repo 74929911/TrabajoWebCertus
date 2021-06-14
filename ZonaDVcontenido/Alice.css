@@ -39,20 +39,30 @@ body{
 margin-top:40px;
 overflow-x:hidden;
 }
+
+
 .imagenes_alice{
 display:flex;
 width:100%;
 justify-content: space-evenly;
-
-
+padding-top:10px;
+padding-bottom:50px;
+background-color:thistle
 }
+
 .imagenes_alice img{
     width: 30%;
     margin-top: 40px;
 }
 .madness{
-    width: 100%;
+width: 100%;
+background-image: url(../imagenes/Alice.png);
+background-size:100% 100%;
+background-color:rgb(106, 107, 168)
 }
+
+
 .ALICE{
-    width: 50%;
+width: 50%;
+margin-left:20px
 }
