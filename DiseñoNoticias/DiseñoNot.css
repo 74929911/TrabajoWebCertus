@@ -191,3 +191,18 @@ overflow-x:hidden;
 .noticias7_div p{
     margin-top:2%;
 }
+
+
+ 
+h2 {
+    color:orange;
+}
+body{
+    background-image: url(https://fondosmil.com/fondo/19467.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+p{
+    color: white;
+}

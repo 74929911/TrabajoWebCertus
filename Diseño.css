@@ -4,11 +4,13 @@
     display: flex;
     width: 100%;
     margin-bottom: 40px;
-    margin-top: 40px;
+    margin-top: 80px;
     margin-left: 2%;
+    margin-bottom: 80px;
+
 }
 .noticia1 img{
-    width: 20%; 
+    width: 30%; 
 }
 
 .noticia1_div {
@@ -35,7 +37,7 @@
     margin-bottom: 40px;
 }
 .noticia2 img{
-    width: 20%;
+    width: 30%;
     margin-right: 2%;
 }
 .noticia2_div {
@@ -67,9 +69,7 @@ margin-top:-47px;
 z-index:451;
 }
 
-.espacio__logo{
-margin-left:80px
-}
+
 
 ul li{
 display:inline-block;
@@ -191,5 +191,22 @@ overflow-x:hidden;
 }
 .noticiah2{
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
+    
+}
+
+.juegospopulares1 img{
+width:30%
+}
+
+.juegospopulares2 img{
+width:30%
+}
+
+body{
+background-color:rgb(34, 34, 34);
+}
+
+p{
+color:white
 }
