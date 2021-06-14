@@ -40,3 +40,46 @@ margin-top:40px;
 overflow-x:hidden;
 }
            
+
+
+.pip-2{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.pip-2 img{
+    width: 27%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+
+
+.pip-1{
+
+    width: 50%;
+    margin-left: 2%;
+}
+
+.pip-1 h2{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+
+.pip-1 p{
+
+    margin-top: 20px;
+}
+
+
+.pip-1 iframe{
+
+
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
