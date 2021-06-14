@@ -46,11 +46,17 @@ overflow-x:hidden;
 .Popular1{
 display:flex;
 width:100%;
+margin-left: 2%;
+padding-top: 2%;
 }
-
+.Popular1 h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
 .Popular_texto{
 width:40%;
 margin-left:30px;
+margin-top: 5%;
 }
 
 .Popular1 img{
@@ -64,17 +70,24 @@ width:30%
 display:flex;
 width:100%;
 flex-direction: row-reverse;
-margin-top:20px
+margin-top:20px;
 }
-
+.Popular2 h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 .Popular2_txt{
 width:40%;
-margin-right:30px}
+margin-right:30px;
+margin-top: 4%;
+}
+
 
 
 .Popular2 img{
-width:30%
+width:30%;
+margin-right: 2%;
 }
 
 /* POPULAR 3 */
@@ -83,11 +96,17 @@ width:30%
 display:flex;
 width:100%;
 margin-top:20px;
+margin-left: 2%;
+}
+.popular3 h2{
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .Popular3_txt{
 width:30%;
-margin-left:30px
+margin-left:30px;
+margin-top: 3% ;
 }
 
 .popular3 img{
@@ -101,15 +120,21 @@ display:flex;
 flex-direction: row-reverse;
 width:100%;
 }
-
+.popular4 h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
 .popular4_txt{
 width:30%;
-margin-right:30px
+margin-right:30px;
+margin-top:4% ;
+
 }
 
 .popular4 img{
 width:25%;
-height:280px
+height:280px;
+margin-right: 2%;
 }
 
 
@@ -117,12 +142,17 @@ height:280px
 
 .popular5{
 display:flex;
-width:100%
+width:100%;
+margin-left: 2%;
 }
-
+.popular5 h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
 .popular5_txt{
 width:40%;
-margin-left:30px
+margin-left:30px;
+margin-top:4% ;
 }
 
 .popular5 img{
@@ -138,25 +168,37 @@ display:flex;
 flex-direction:row-reverse;
 width:100%
 }
-
+.popular6 h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
 .popular6_txt{
 width:40%;
-margin-right:30px
+margin-right:30px;
+margin-top:4% ;
+
 }
 
 .popular6 img{
-width:30%
+width:30%;
+margin-right: 2%;
 }
 
 /* POPULAR 7 */
 .popular7{
 display:flex;
-width:100%
+width:100%;
+margin-left: 2%;
+margin-bottom: 40px;
 }
-
+.popular7 h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
 .popular7_txt{
 width:40%;
-margin-left:30px
+margin-left:30px;
+margin-top:5% ;
 }
 
 .popular7 img{
@@ -165,3 +207,18 @@ width:30%
 
 
 
+
+
+
+h2 {
+    color: red;
+}
+
+body{background:url(https://i.pinimg.com/originals/d6/0b/fb/d60bfb79b23c28a2b50270e2bf623ca7.jpg) no-repeat;
+        background-size: cover;
+        background-attachment:fixed;
+        padding-left: 1em;
+    }
+p {
+    color: white;
+}
