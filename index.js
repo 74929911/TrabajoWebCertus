@@ -1,38 +1,28 @@
 window.addEventListener('load' , function () { 
-    console.log('el contenido ha cargado');
+    console.log('el contenido ha cargado');  
     
     var imagenes =[]
     
     imagenes[0]='carlos-ghostunner/img1.jpg'
     imagenes[1]='carlos-ghostunner/img2.jpg'
-    
-    
-    var indiceImagenes=0;
-    
+       
+    var indiceImagenes=0;   
     function cambiarImagenes(){
     
-        document.carlos1.src=imagenes[indiceImagenes];
-    
+        document.carlos1.src=imagenes[indiceImagenes];   
     if (indiceImagenes < 1) {
-        indiceImagenes++; 
-        
+        indiceImagenes++;         
     }else{
     indiceImagenes = 0;
     }
     
     }
-    
     setInterval(cambiarImagenes,3000);
-    
     });
 
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
     window.addEventListener('load' , function () { 
         console.log('el contenido ha cargado');
         
