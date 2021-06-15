@@ -1,3 +1,7 @@
+
+
+
+
 window.addEventListener('load' , function () { 
     console.log('el contenido ha cargado');  
     
@@ -17,7 +21,12 @@ window.addEventListener('load' , function () {
     }
     
     }
-    setInterval(cambiarImagenes,3000);
+
+    
+    setInterval(cambiarImagenes,2000);
+    
+
+
     });
 
 
@@ -47,7 +56,7 @@ window.addEventListener('load' , function () {
         
         }
         
-        setInterval(cambiarImagenes,3000);
+        setInterval(cambiarImagenes,2000);
         
         });
 
