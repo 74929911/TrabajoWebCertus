@@ -24,17 +24,30 @@
 <main>
 
 
+<div class="main">
 
-<section>
-<div class="zona_todo">
-<!-- VIDEOJUEGOS PARA DESCARGAR -->
-<a href="ZonaDVcontenido/Marvel-Capcom.html"><img src="https://media.redadn.es/imagenes/marvel-vs-capcom-3-fate-of-two-worlds-playstation-3_56073.jpg" alt="MarvelvsCapcom"></a>
+<div class="slides">
+<a href="ZonaDVcontenido/Marvel-Capcom.html"><img src="https://image.api.playstation.com/cdn/JP0102/CUSA04553_00/ftSgkRBNDTXROMkLiVmjgLFXdIHtdpcp.png"alt="MarvelvsCapcom"></a>
+<a href="ZonaDVcontenido/Prototype2.html"><img src="https://playersupport--c.na48.content.force.com/servlet/servlet.ImageServer?id=0150B000005dHQN&oid=00DU0000000HMgw&lastMod=1484335834000"alt="prototype"></a>
+<a href="ZonaDVcontenido/Metal-Slug.html"><img src="https://tec.com.pe/wp-content/uploads/2021/06/E3irG6SXIAAN_xJ.jpg"
+        alt="MetalSlug"></a>
+<a href="ZonaDVcontenido/Alice Madness.html"><img src="https://pivigames.blog/wp-content/uploads/2017/03/capsule_616x353.jpg" alt="Alice"></a>
+<a href="ZonaDVcontenido/GTASA.html"><img src="https://www.wallpapertip.com/wmimgs/7-75779_gta-san-andreas-background.jpg"alt="GTASA"></a>
+</div>
+
+</div>
+
+
+<!-- <section>
+<div class="alig">
+ VIDEOJUEGOS PARA DESCARGAR -->
+<!-- <a href="ZonaDVcontenido/Marvel-Capcom.html"><img src="https://media.redadn.es/imagenes/marvel-vs-capcom-3-fate-of-two-worlds-playstation-3_56073.jpg" alt="MarvelvsCapcom"></a>
 <a href="ZonaDVcontenido/Prototype2.html"><img src="https://playersupport--c.na48.content.force.com/servlet/servlet.ImageServer?id=0150B000005dHQN&oid=00DU0000000HMgw&lastMod=1484335834000" alt="prototype"></a>
 <a href="ZonaDVcontenido/Metal-Slug.html"><img src="https://as.com/meristation/imagenes/2021/05/17/noticias/1621239641_881650_1621239738_noticia_normal.jpg" alt="MetalSlug"></a>
 <a href="ZonaDVcontenido/Alice Madness.html"><img src="https://pivigames.blog/wp-content/uploads/2017/03/capsule_616x353.jpg" alt="Alice"></a>
 <a href="ZonaDVcontenido/GTASA.html"><img src="https://www.truco.info/wp-content/uploads/2013/11/Gta-san-andreas.jpg" alt="GTASA"></a>
 </div>
-</section>
+</section>--> 
 
 <!-- <section>
 VIDEOJUEGOS-TRAILER DE LOS NUEVOS (VIDEO) -->
@@ -49,8 +62,31 @@ VIDEOJUEGOS-TRAILER DE LOS NUEVOS (VIDEO) -->
 </section> -->
 </main>
 
-
-
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.slides.js"></script>
+<script>
+   $(function () {
+        $(".slides").slidesjs({
+            play: {
+                active: true,
+                // [boolean] Generate the play and stop buttons.
+                // You cannot use your own buttons. Sorry.
+                effect: "slide",
+                // [string] Can be either "slide" or "fade".
+                interval: 2000,
+                // [number] Time spent on each slide in milliseconds.
+                auto: true,
+                // [boolean] Start playing the slideshow on load.
+                swap: true,
+                // [boolean] show/hide stop and play buttons
+                pauseOnHover: false,
+                // [boolean] pause a playing slideshow on hover
+                restartDelay: 2500
+                // [number] restart delay on inactive slideshow
+            }
+        });
+    });
+</script>
 </body>
 </html>
 

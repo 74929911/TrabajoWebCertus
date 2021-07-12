@@ -1,11 +1,9 @@
-ul{
+ ul{
 background:rgb(0, 0, 0);
 list-style-type: none;
-position:fixed;
-width:100%;
 margin-top:-47px;
-z-index:451;
-}
+ }
+
             
             
 ul li{
@@ -26,7 +24,7 @@ background:rgb(61, 61, 61)
             
 ul li a:active{
 background:rgb(104, 104, 104)
-}
+} */
 
 
 *{
@@ -36,21 +34,57 @@ padding:0;
                 
 body{
 margin-top:40px;
-background-image:url(../imagenes/FondoUno.png);
-}
+background-color:rgb(36, 36, 36)
+}  
 
-
-.zona_todo{
+.main{
 width:100%;
-display:flex;
-overflow-x: auto;
-align-items: center;
+max-width:1000px;
+margin:20px auto;
 
 }
 
-.zona_todo a img{
-height:300px;
+.slides{
+width:100%;
+}
+
+.slides img{
+width:100%
+}
+
+.slidesjs-pagination{
+background:#424242;
+list-style: none;
+overflow: hidden;
 }
 
 
+.slidesjs-pagination li{
+float:left;
 
+}
+
+.slidesjs-pagination li a{
+display:block;
+padding:10px 20px;
+color:white;
+text-decoration: none;
+}
+
+.slidesjs-pagination li a:hover{
+background:black
+}
+
+.slides .active{
+background:black
+}
+
+
+.slidesjs-navigation{
+background:rgb(31, 31, 31);
+color:white;
+text-decoration: none;
+display:inline-block;
+padding:10px 20px;
+float:right
+}
