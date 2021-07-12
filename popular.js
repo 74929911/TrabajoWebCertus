@@ -14,7 +14,7 @@ text1.style.marginRight = value * 0.5+ 'px';
 text2.style.marginLeft = value * 0.5 + 'px';
 text3.style.marginRight = value * 0.5 + 'px';
 text4.style.marginLeft = value * 0.5 + 'px';
-text5.style.marginRight = value * 0.3 + 'px';
+text5.style.marginRight = value * 0.2 + 'px';
 text6.style.marginLeft= value * 0.3 + 'px';
 
 })
