@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
     <title>Bienvenido</title>
 </head>
 <body>
-<input type="email" id="email" placeholder="coloca aqui tu nombre">
-<input type="password" id="password" placeholder="coloca aqui tu contraseña">
-<button onclick="enviar()">Enviar</button>
+<section class="form-register">
+<h4>Bienvenido</h4>
+<input type="email" id="email" placeholder="Ingrese su correo" class="nombres" name="datos" >
+<input type="password" id="password" placeholder="Ingrese su contraseña" class="nombres" name="datos">
+<p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+<button onclick="enviar()" class="botons">Registrar</button>
+<p><a href="#">¿No tienes cuenta?</a></p>
+</section>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
