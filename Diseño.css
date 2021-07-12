@@ -7,7 +7,7 @@
     margin-top: 80px;
     margin-left: 2%;
     margin-bottom: 80px;
-    background-color:rgb(44, 71, 73)
+    background-color:rgb(19, 49, 49)
 
 }
 .noticia1 img{
@@ -23,7 +23,7 @@
 }
 .noticia1_div h2{
     text-align: center;
-    color: rgb(29, 86, 255);
+    color: rgb(236, 236, 236);
     margin-bottom: 1%;
     margin-top: 1%;
 }
@@ -37,7 +37,7 @@
     width: 100%;
     flex-direction: row-reverse;
     margin-bottom: 40px;
-    background-color:rgb(44, 71, 73)
+    background-color:rgb(19, 49, 49)
 }
 .noticia2 img{
     width: 30%;

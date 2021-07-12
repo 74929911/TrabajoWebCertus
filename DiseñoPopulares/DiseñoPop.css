@@ -105,7 +105,7 @@ margin-left: 2%;
 }
 
 .Popular3_txt{
-width:30%;
+width:50%;
 margin-left:30px;
 margin-top: 3% ;
 }
@@ -127,15 +127,15 @@ width:100%;
     margin-bottom: 20px;
 }
 .popular4_txt{
-width:30%;
+width:50%;
 margin-right:30px;
 margin-top:4% ;
 
 }
 
 .popular4 img{
-width:25%;
-height:280px;
+width:30%;
+height:250px;
 margin-right: 2%;
 
 }
@@ -149,7 +149,7 @@ width:100%;
 margin-left: 2%;
 }
 .popular5 h2{
-    text-align: center;
+    text-align: right;
     margin-bottom: 20px;
 }
 .popular5_txt{
@@ -170,17 +170,18 @@ width:30%;
 .popular6{
 display:flex;
 flex-direction:row-reverse;
-width:100%
+width:100%;
+margin-left:0%;
 }
 .popular6 h2{
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
 }
 .popular6_txt{
-width:40%;
+width:50%;
 margin-right:30px;
 margin-top:4% ;
-
+padding-left: 0%;
 }
 
 .popular6 img{
@@ -216,7 +217,7 @@ width:30%;
 
 
 h2 {
-    color: red;
+    color: rgb(0, 225, 255);
 }
 
 body{background:url(https://i.pinimg.com/originals/d6/0b/fb/d60bfb79b23c28a2b50270e2bf623ca7.jpg) no-repeat;
@@ -227,3 +228,9 @@ body{background:url(https://i.pinimg.com/originals/d6/0b/fb/d60bfb79b23c28a2b502
 p {
     color: white;
 }
+
+img{
+    border-style: solid;
+    border-color: rgb(0, 225, 255);
+    
+    }
