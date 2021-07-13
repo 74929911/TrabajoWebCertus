@@ -1,4 +1,17 @@
 
+
+.chi1{
+border-top:solid red;
+border-bottom:solid red;
+}
+
+.chi2{
+border-top:solid rgb(0, 204, 255);
+border-bottom:solid rgb(0, 204, 255);
+}
+
+
+
 /*Estilos Noticias*/
 .noticia1 {
     display: flex;
