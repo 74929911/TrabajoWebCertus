@@ -8,13 +8,13 @@
     margin-right: 2%;
     margin-left: 2%;
     margin-bottom: 80px;
-    background-color:rgb(19, 49, 49);
+    background-color:rgb(0, 0, 0);
    
 }
 .noticia1 img{
     width: 30%; 
 }
-
+/* rgb(19, 49, 49) */
 
 .noticia1_div {
     font-size: 16px;
@@ -24,7 +24,7 @@
 }
 .noticia1_div h2{
     text-align: center;
-    color: rgb(236, 236, 236);
+    color: rgb(251, 255, 0);
     margin-bottom: 1%;
     margin-top: 1%;
 }
@@ -38,7 +38,7 @@
     width: 100%;
     flex-direction: row-reverse;
     margin-bottom: 40px;
-    background-color:rgb(19, 49, 49);
+    background-color:rgb(0, 0, 0);
  
    
 }
@@ -58,7 +58,7 @@
 }
 .noticia2_div h2{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(133, 4, 255);
 }
 
 
@@ -226,11 +226,99 @@ color:white
 }
 
 
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+
+ 
 
 
 
+     .contenedor {
+        background-color: #fff;
+        width: 90%;
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 40px;
+        border-radius: 10px;
+    }
 
 
+   
+    
+    
+    .menu  {
+        display: flex;
+         justify-content: space-between;
+         flex-wrap: wrap;
+    }
+    
+    .menu a {
+        font-size: 22px;
+         border-bottom: 2px solid transparent;
+         margin-left: 40px;
+         color: rgb(194, 30, 30);
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+    
+    .menu a:hover {
+        border-bottom: 2px solid #f2c968;
+    }
+    
+    .pei {
+         display: flex;
+         justify-content: flex-end;
+         align-items: center;
+        position:absolute;
+        left: 35%;
+    }
+    
+    
+    .contenedor-texto .titulo {
+         font-size: 50px;
+         font-weight: normal;
+       text-align: center;
+    }
+    
+    .contenedor-texto .mascota {
+         font-weight: bold;
+         color: #c99806;
+         font-style: normal;
+    }
+    
+    .contenedor-texto p {
+         margin-bottom: 40px;
+         line-height: 36px;
+    }
+    
+    .btn-link {
+         display: inline-block;
+         padding: 10px 30px;
+        border-radius: 100px;
+         margin-right: 10px;
+         text-decoration: none;
+         background: #f2f2f2;
+    }
+    
+    .btn-link:hover,
+    .btn-link.activo {
+        color: #fff;
+        background: #5b4a9a;
+    }
+    
+    @media screen and (max-width: 915px) {
+         main {
+              flex-direction: column;
+              text-align: center;
+         }
+    
+         main .contenedor-img {
+              margin-bottom: 40px;
+         }
+    }
 
+.titulo {
+    color: rgb(255, 255, 255);
+}
 
 

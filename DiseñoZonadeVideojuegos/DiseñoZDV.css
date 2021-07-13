@@ -89,8 +89,5 @@ float:right
 
 
 body{
-    min-height: 100vh;
-    background-image: url("");
-    background-attachment: fixed;
-background-size: cover;
+    background-color: rgb(49, 49, 49);
 }
