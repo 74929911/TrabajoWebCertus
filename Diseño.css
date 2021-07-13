@@ -5,10 +5,11 @@
     width: 100%;
     margin-bottom: 40px;
     margin-top: 80px;
+    margin-right: 2%;
     margin-left: 2%;
     margin-bottom: 80px;
-    background-color:rgb(19, 49, 49)
-
+    background-color:rgb(19, 49, 49);
+   
 }
 .noticia1 img{
     width: 30%; 
@@ -37,7 +38,9 @@
     width: 100%;
     flex-direction: row-reverse;
     margin-bottom: 40px;
-    background-color:rgb(19, 49, 49)
+    background-color:rgb(19, 49, 49);
+ 
+   
 }
 .noticia2 img{
     width: 30%;
@@ -45,8 +48,8 @@
 }
 .noticia2_div {
     font-size: 17px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top:1%;
     width: 40%;
 }
